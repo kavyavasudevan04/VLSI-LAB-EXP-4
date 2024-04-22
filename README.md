@@ -1,13 +1,12 @@
-# VLSI-LAB-EXP-4
 # SIMULATION AND IMPLEMENTATION OF SEQUENTIAL LOGIC CIRCUITS
 
 ## AIM: 
- To simulate and synthesis SR, JK, T, D - FLIPFLOP, COUNTER DESIGN using Xilinx ISE.
+&emsp;&emsp;To simulate and implement SR, JK, T, D - FLIPFLOP, COUNTER DESIGN using VIVADO 2023.2.
 
 ## APPARATUS REQUIRED:
+&emsp;&emsp;VIVADO 2023.2
 
-Xilinx 14.7
-Spartan6 FPGA
+
 **PROCEDURE:**
 
 STEP:1  Launch the Vivado 2023.2 software.<br>
@@ -187,13 +186,49 @@ endmodule
 **OUTPUT WAVEFORM:**
 
 ![Screenshot 2024-04-02 135812](https://github.com/TharunPR/VLSI-LAB-EXP-4/assets/117915125/a4534c02-50b7-48b1-92bc-3f98a861df1b)
+**RIPPLE CARRY COUNTER:**
 
+**VERILOG CODE:**
 
+```
+module ripplecounter(q, clk, reset);
+output [3:0] q;
+input clk, reset;
+T_FF tff0(q[0], clk, reset);
+T_FF tff1(q[1], q[0], reset);
+T_FF tff2(q[2], q[1], reset);
+T_FF tff3(q[3], q[2], reset);
+endmodule
+module T_FF(q, clk, reset);
+output q;
+input clk, reset;
+wire d;
+D_FF dff0(q, d, clk, reset);
+not n1(d, q); 
+endmodule
 
+module D_FF(q, d, clk, reset);
+output q;
+input d, clk, reset;
+reg q;
+always @(posedge reset or negedge clk)
+if (reset)
+q = 1'b0;
+else
+q = d;
+endmodule
+```
+**OUTPUT:**
 
+![image](https://github.com/SwarnaMallikaPL/VLSI-LAB-EXP-4/assets/160829667/860c050a-314e-4d3b-be3e-27a458292650)
+
+**RESULT:**
+
+&emsp;&emsp;Thus the simulation of sequential circuits is done and outputs are verified
+successfully.
   
 
 
-RESULT
+
 
 
