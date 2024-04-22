@@ -218,7 +218,7 @@ else
 q = d;
 endmodule
 ```
-**OUTPUT WAVWFORM:**
+**OUTPUT WAVEFORM:**
 
 ![image](https://github.com/SwarnaMallikaPL/VLSI-LAB-EXP-4/assets/160829667/860c050a-314e-4d3b-be3e-27a458292650)
 
