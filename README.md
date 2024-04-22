@@ -186,9 +186,9 @@ endmodule
 **OUTPUT WAVEFORM:**
 
 ![Screenshot 2024-04-02 135812](https://github.com/TharunPR/VLSI-LAB-EXP-4/assets/117915125/a4534c02-50b7-48b1-92bc-3f98a861df1b)
-**RIPPLE CARRY COUNTER:**
+## Ripple Carry Counter:
 
-**VERILOG CODE:**
+## VERILOG CODE:
 
 ```
 module ripplecounter(q, clk, reset);
@@ -218,7 +218,7 @@ else
 q = d;
 endmodule
 ```
-**OUTPUT:**
+**OUTPUT WAVWFORM:**
 
 ![image](https://github.com/SwarnaMallikaPL/VLSI-LAB-EXP-4/assets/160829667/860c050a-314e-4d3b-be3e-27a458292650)
 
