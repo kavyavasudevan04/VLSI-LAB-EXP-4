@@ -7,7 +7,7 @@
 &emsp;&emsp;VIVADO 2023.2
 
 
-**PROCEDURE:**
+## PROCEDURE:
 
 STEP:1  Launch the Vivado 2023.2 software.<br>
 STEP:2  Click on “create project ” from the starting page of vivado.<br>
@@ -24,7 +24,7 @@ STEP:7  Verify the output in the simulation window.<br>
 ## Logic Diagram:
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/77fb7f38-5649-4778-a987-8468df9ea3c3)
-**VERILOG CODE:**
+## VERILOG CODE:
 
 ```
 module sr(s,r,clk,rst,q);
@@ -46,7 +46,7 @@ end
 end
 endmodule
 ```
-**OUTPUT WAVEFORM:**
+## OUTPUT WAVEFORM:
 
 ![Screenshot 2024-04-06 111951](https://github.com/TharunPR/VLSI-LAB-EXP-4/assets/117915125/ede889cf-b50f-480a-bfe5-920ad5c448c7)
 
@@ -80,7 +80,7 @@ end
 end
 endmodule
 ```
-**OUTPUT WAVEFORM:**
+## OUTPUT WAVEFORM:
 
 ![Screenshot 2024-04-06 112629](https://github.com/TharunPR/VLSI-LAB-EXP-4/assets/117915125/b0ebf4b3-ac7f-4014-b56f-00d8dd10c65a)
 
@@ -107,7 +107,7 @@ q=~q;
 end
 endmodule
 ```
-**OUTPUT WAVEFORM:**
+## OUTPUT WAVEFORM:
 
 ![Screenshot 2024-04-06 111656](https://github.com/TharunPR/VLSI-LAB-EXP-4/assets/117915125/2f6d1a48-fd1a-40ff-8239-563a66f0564f)
 
@@ -134,7 +134,7 @@ q=d;
 end
 endmodule
 ```
-**OUTPUT WAVEFORM:**
+## OUTPUT WAVEFORM:
 
 ![Screenshot 2024-04-06 112153](https://github.com/TharunPR/VLSI-LAB-EXP-4/assets/117915125/80e530a3-9861-4c82-b359-4e49d05f4e7c)
 
@@ -162,7 +162,7 @@ out=out-1;
 end
 endmodule
 ```
-**OUTPUT WAVEFORM:**
+## OUTPUT WAVEFORM:
 
 ![Screenshot 2024-04-02 133943](https://github.com/TharunPR/VLSI-LAB-EXP-4/assets/117915125/47ae4a6f-afc3-4dc7-8ebf-acb7eb0c5bc4)
 ## Mod 10 Counter:
@@ -183,7 +183,7 @@ end
 endmodule
 ```
 
-**OUTPUT WAVEFORM:**
+## OUTPUT WAVEFORM:
 
 ![Screenshot 2024-04-02 135812](https://github.com/TharunPR/VLSI-LAB-EXP-4/assets/117915125/a4534c02-50b7-48b1-92bc-3f98a861df1b)
 ## Ripple Carry Counter:
@@ -218,11 +218,11 @@ else
 q = d;
 endmodule
 ```
-**OUTPUT WAVEFORM:**
+## OUTPUT WAVEFORM:
 
 ![image](https://github.com/SwarnaMallikaPL/VLSI-LAB-EXP-4/assets/160829667/860c050a-314e-4d3b-be3e-27a458292650)
 
-**RESULT:**
+## RESULT:
 
 &emsp;&emsp;Thus the simulation of sequential circuits is done and outputs are verified
 successfully.
