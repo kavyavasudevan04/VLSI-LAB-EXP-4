@@ -56,6 +56,7 @@ endmodule
 
 ## JK Flipflop:
 ## Logic Diagram:
+![image](https://github.com/karanpro06/VLSI-LAB-EXP-4/assets/119782103/61ba7f5a-accd-496d-a65b-ebef34301d75)
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/1510e030-4ddc-42b1-88ce-d00f6f0dc7e6)
 ## VERILOG CODE:
@@ -88,6 +89,7 @@ endmodule
 
 ## T Flipflop:
 ## Logic Diagram:
+![image](https://github.com/karanpro06/VLSI-LAB-EXP-4/assets/119782103/43dc6827-07e1-4e92-8e8a-ecc22ce0d6a3)
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/7a020379-efb1-4104-85ee-439d660baa08)
 ## VERILOG CODE:
@@ -117,6 +119,7 @@ endmodule
 
 ## D Flipflop:
 ## Logic Diagram:
+![image](https://github.com/karanpro06/VLSI-LAB-EXP-4/assets/119782103/8e827351-3ef8-4a51-9379-1e3baae4baae)
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/dda843c5-f0a0-4b51-93a2-eaa4b7fa8aa0)
 ## VERILOG CODE:
@@ -141,10 +144,15 @@ endmodule
 
 
 ## Counter:
-## Logic Diagram:
+
+## Updown Counter:
+## LOGIC DIAGRAM:
+
+![image](https://github.com/Dhinesh0024/VLSI-LAB-EXP-4/assets/160568927/dd12585a-157f-4b6f-a0c3-b421bb52434c)
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/a1fc5f68-aafb-49a1-93d2-779529f525fa)
-## Updown Counter:
+
+
 ## Verilog code:
 
 ```
@@ -166,6 +174,9 @@ endmodule
 
 ![Screenshot 2024-04-02 133943](https://github.com/TharunPR/VLSI-LAB-EXP-4/assets/117915125/47ae4a6f-afc3-4dc7-8ebf-acb7eb0c5bc4)
 ## Mod 10 Counter:
+## LOGIC DIAGRAM:
+
+![image](https://github.com/Dhinesh0024/VLSI-LAB-EXP-4/assets/160568927/3a4a4da2-7488-411d-8ea5-2e57c4fd942f)
 ## VERILOG CODE:
 
 
@@ -187,6 +198,12 @@ endmodule
 
 ![Screenshot 2024-04-02 135812](https://github.com/TharunPR/VLSI-LAB-EXP-4/assets/117915125/a4534c02-50b7-48b1-92bc-3f98a861df1b)
 ## Ripple Carry Counter:
+## Logic Diagram:
+
+![image](https://github.com/Dhinesh0024/VLSI-LAB-EXP-4/assets/160568927/129b1a22-407f-4f38-adff-b4dbf3595eb7)
+
+![image](https://github.com/Dhinesh0024/VLSI-LAB-EXP-4/assets/160568927/fecad9d3-7f49-4c98-91f4-443803a60e37)
+
 
 ## VERILOG CODE:
 
